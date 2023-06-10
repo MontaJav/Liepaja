@@ -1,0 +1,74 @@
+# echo quit | openssl s_client -showcerts -servername apigw.latvenergo.lv -connect apigw.latvenergo.lv:17502
+
+CONNECTED(00000005)
+depth=0 CN = apigw.latvenergo.lv
+verify error:num=20:unable to get local issuer certificate
+verify return:1
+depth=0 CN = apigw.latvenergo.lv
+verify error:num=21:unable to verify the first certificate
+verify return:1
+---
+Certificate chain
+ 0 s:CN = apigw.latvenergo.lv
+   i:C = GB, ST = Greater Manchester, L = Salford, O = Sectigo Limited, CN = Sectigo RSA Domain Validation Secure Server CA
+-----BEGIN CERTIFICATE-----
+MIIGSTCCBTGgAwIBAgIRAKLNCM+xV/vAqNASi5AUsQAwDQYJKoZIhvcNAQELBQAw
+gY8xCzAJBgNVBAYTAkdCMRswGQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAO
+BgNVBAcTB1NhbGZvcmQxGDAWBgNVBAoTD1NlY3RpZ28gTGltaXRlZDE3MDUGA1UE
+AxMuU2VjdGlnbyBSU0EgRG9tYWluIFZhbGlkYXRpb24gU2VjdXJlIFNlcnZlciBD
+QTAeFw0yMzA0MjQwMDAwMDBaFw0yNDA0MjQyMzU5NTlaMB4xHDAaBgNVBAMTE2Fw
+aWd3LmxhdHZlbmVyZ28ubHYwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQDEOIaEsGFyPdPy63Miycyn5T1prm4x3FzRww/yRR7yZWpU31sylg8aq73/riSr
+qg60nmJ1rffbaLBhAWnNXOfmEijjIw0xzJOvGVCAhy6vsJ+z6XBWiafrngyy79ag
+F9OEONePfoVY1SO5s9kLT09h/EFHLXYYYUTCglPffBMsrWHiH5sikPeJzv72d0+d
+Qkv1fnptFV054H7E9Vp0w/8xY53qCkOY181L+KeUGVeDYkaLh+KUZGovMtVMBuu+
+C5Iamut8IMNcVB6SXZKsX+2s4lGEOUhFBI09fH3NOlP/IouXSncMMdYehNXMLWhu
+VGAHXHTmR4y9DCffg2TWoi59AgMBAAGjggMOMIIDCjAfBgNVHSMEGDAWgBSNjF7E
+VK2K4Xfpm/mbBeG4AY1h4TAdBgNVHQ4EFgQU5Fcohsb8Re2aH8Ztmo7JUfij0/Mw
+DgYDVR0PAQH/BAQDAgWgMAwGA1UdEwEB/wQCMAAwHQYDVR0lBBYwFAYIKwYBBQUH
+AwEGCCsGAQUFBwMCMEkGA1UdIARCMEAwNAYLKwYBBAGyMQECAgcwJTAjBggrBgEF
+BQcCARYXaHR0cHM6Ly9zZWN0aWdvLmNvbS9DUFMwCAYGZ4EMAQIBMIGEBggrBgEF
+BQcBAQR4MHYwTwYIKwYBBQUHMAKGQ2h0dHA6Ly9jcnQuc2VjdGlnby5jb20vU2Vj
+dGlnb1JTQURvbWFpblZhbGlkYXRpb25TZWN1cmVTZXJ2ZXJDQS5jcnQwIwYIKwYB
+BQUHMAGGF2h0dHA6Ly9vY3NwLnNlY3RpZ28uY29tMDcGA1UdEQQwMC6CE2FwaWd3
+LmxhdHZlbmVyZ28ubHaCF3d3dy5hcGlndy5sYXR2ZW5lcmdvLmx2MIIBfgYKKwYB
+BAHWeQIEAgSCAW4EggFqAWgAdgB2/4g/Crb7lVHCYcz1h7o0tKTNuyncaEIKn+Zn
+TFo6dAAAAYezo4iIAAAEAwBHMEUCIHesqnCDRi9/DDwqcaYRGn6eScwWim6w1prz
+pasB9RgeAiEA3hLo0x2jLQV01lO4bHHzonjkiUcPsmnDsWLbw+6iUacAdgDatr9r
+P7W2Ip+bwrtca+hwkXFsu1GEhTS9pD0wSNf7qwAAAYezo4jpAAAEAwBHMEUCIQD9
+u1nS/WkJ9ne1TrtyWmh1NJEJfmk+sgJq+joBdqLKDgIgPZvlYHtVJVozYDdVk1c7
+5F4HV4INAI94B9P/9GcjJnEAdgDuzdBk1dsazsVct520zROiModGfLzs3sNRSFlG
+cR+1mwAAAYezo4i3AAAEAwBHMEUCID9Pi+qp/HXntqo7FZpQosQezxXegs5orVBV
++A2SyZS5AiEA8KvCyw4kNwC0pz18QmMe0KkkvfQZ0XsaMhOUYVOqIVwwDQYJKoZI
+hvcNAQELBQADggEBAMromkrtCLLmQ7TM+9+FZBB2Z54uSDkVI8O8L1H2lEvNxxyY
+x6X+kojLXFxAzFohbQSq/DFZg4uuG3VJ1zUC1POfM5SfIYpDPveIaqEff9bT8ecG
+boF2CBqRuWxxUirTHmO2xBfrjVJOPPMxuywNpdgFhEsZTNvp/cWLL2GTFpHKyQ2J
+BwW1Xo3BZiteBCd6s7F3ZLWArx4h2QOuJGIy5D0AYtw6wPdVckI8hNqKKiGw1COb
+sjVjHhC8h6CvAI3P3o8IEgTlrClqHXjCe6FRyWVgp0hKKGW8moEGKVGFjQhT9Rna
+aRptrVh3Xd4pSJWVoJ9ICZF6rDJjJc/mMwwYJHI=
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=CN = apigw.latvenergo.lv
+
+issuer=C = GB, ST = Greater Manchester, L = Salford, O = Sectigo Limited, CN = Sectigo RSA Domain Validation Secure Server CA
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA-PSS
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 2173 bytes and written 401 bytes
+Verification error: unable to verify the first certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 21 (unable to verify the first certificate)
+---
+DONE
